@@ -16,6 +16,7 @@ console.log(desactive);
 active.addEventListener('click', function(){
 
     hamburger.classList.add('active');
+    console.log(hamburger.className);
 });
 
 // click-tasto-x
@@ -23,4 +24,5 @@ active.addEventListener('click', function(){
 desactive.addEventListener('click', function(){
 
     hamburger.classList.remove('active');
+    console.log(hamburger.className);
 });
