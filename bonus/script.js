@@ -37,6 +37,7 @@ active.addEventListener('click', function(){
 aggiungi.addEventListener('click', function(){
     li.append("prova");
     add.append(li);
+    li.style.color = "blue"; 
 });
 
 rimuovi.addEventListener('click', function(){
