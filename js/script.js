@@ -3,11 +3,11 @@ const hamburger = document.querySelector('.hamburger-menu');
 console.log(hamburger);
 
 // variabile-active
-const active = document.querySelector('.fas.fa-bars');
+const active = document.querySelector('.header-right a i');
 console.log(active);
 
 // variabile-desactive
-const desactive = document.querySelector('.fas.fa-times');
+const desactive = document.querySelector('.hamburger-menu a i');
 console.log(desactive);
 
 
